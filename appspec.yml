@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+
+files:
+  - source: backend/
+    destination: /home/ubuntu/app
+
+hooks:
+  AfterInstall:
+    - location: backend/install.sh
+  ApplicationStart:
+    - location: backend/start.sh
