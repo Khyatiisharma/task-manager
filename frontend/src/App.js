@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="container">
-      <h2>✨ Task Manager</h2>
+      <h2>My Task Manager</h2>
 
       <div className="input-section">
         <input
