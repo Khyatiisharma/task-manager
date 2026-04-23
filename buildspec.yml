@@ -15,4 +15,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: frontend/dist
+  base-directory: frontend/build
